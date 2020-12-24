@@ -1,10 +1,12 @@
 
 public class test {
+
 	public static void main(String[] args) {
 		System.out.println("123");
+		Test test = new Test(1, "Test Number One");
 	}
 
-	class Test {
+	static class Test {
 		private int testNumber;
 		private String testString;
 
