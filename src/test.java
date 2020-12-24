@@ -36,12 +36,28 @@ public class test {
 		}
 
 	}
-
+	
 	class Validation {
-
 		private int testNumber;
 
 		public Validation(int testNumber) {
+			super();
+			this.testNumber = testNumber;
+		}
+
+		public int getTestNumber() {
+			return testNumber;
+		}
+
+		public void setTestNumber(int testNumber) {
+			this.testNumber = testNumber;
+		}
+	}
+	
+	class DifferentRow {
+		private int testNumber;
+
+		public DifferentRow(int testNumber) {
 			super();
 			this.testNumber = testNumber;
 		}
