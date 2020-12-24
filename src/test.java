@@ -4,6 +4,8 @@ public class test {
 	public static void main(String[] args) {
 		System.out.println("123");
 		Test test = new Test(1, "Test Number One");
+		test.setTestNumber(2);
+		test.setTestString("Test Number Two");
 	}
 
 	static class Test {
