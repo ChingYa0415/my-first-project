@@ -6,6 +6,8 @@ public class test {
 		Test test = new Test(1, "Test Number One");
 		test.setTestNumber(2);
 		test.setTestString("Test Number Two");
+		test.setTestNumber(ˇ);
+		test.setTestString("Test Number Three");
 		test.setTestNumber(4);
 		test.setTestString("Test Number Four");
 	}
@@ -17,6 +19,10 @@ public class test {
 		Test(int testNumber, String testString) {
 			this.testNumber = testNumber;
 			this.testString = testString;
+		}
+
+		public void etxtendMethod() {
+			System.out.println("新增這個方法，測試分支合併");
 		}
 
 		public int getTestNumber() {
@@ -36,7 +42,7 @@ public class test {
 		}
 
 	}
-	
+
 	class Validation {
 		private int testNumber;
 
@@ -53,7 +59,7 @@ public class test {
 			this.testNumber = testNumber;
 		}
 	}
-	
+
 	class DifferentRow {
 		private int testNumber;
 
