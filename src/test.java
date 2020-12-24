@@ -3,14 +3,13 @@ public class test {
 	public static void main(String[] args) {
 		System.out.println("123");
 	}
-
-	class Test {
+	
+	class Validation {
 		private int testNumber;
-		private String testString;
-
-		Test(int testNumber, String testString) {
+		
+		public Validation(int testNumber) {
+			super();
 			this.testNumber = testNumber;
-			this.testString = testString;
 		}
 
 		public int getTestNumber() {
@@ -20,14 +19,5 @@ public class test {
 		public void setTestNumber(int testNumber) {
 			this.testNumber = testNumber;
 		}
-
-		public String getTestString() {
-			return testString;
-		}
-
-		public void setTestString(String testString) {
-			this.testString = testString;
-		}
-
 	}
 }
