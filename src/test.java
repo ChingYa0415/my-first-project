@@ -2,9 +2,10 @@
 public class test {
 	public static void main(String[] args) {
 		System.out.println("123");
+		Validation validation = new Validation(1);
 	}
 	
-	class Validation {
+	static class Validation {
 		private int testNumber;
 		
 		public Validation(int testNumber) {
