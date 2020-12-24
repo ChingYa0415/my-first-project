@@ -6,6 +6,8 @@ public class test {
 		Test test = new Test(1, "Test Number One");
 		test.setTestNumber(2);
 		test.setTestString("Test Number Two");
+		test.setTestNumber(4);
+		test.setTestString("Test Number Four");
 	}
 
 	static class Test {
